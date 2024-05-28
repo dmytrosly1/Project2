@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>SignIn</title>
+</head>
+<body>
+    <div class="login">
+        <h2>SignIn</h2>
+    </div>
+
+        <div class="container">
+                <div class="container-form">
+                    <h1 id="ebook">e-Book</h1>
+
+
+                    <form action="index.html" id="form">
+     
+     
+                       <label for="name" class="name">Your name</label>
+                       <input type="name" name="name" id="name" minlength="6" maxlength="16">
+     
+     
+                       <label for="year" class="year">Year of birth</label>
+                       <input type="number" name="year" id="year">
+     
+     
+                       <label for="email" class="email">Email</label>
+                       <input type="email" name="email" id="email">
+     
+                    
+                       <label for="number" class="number">Phone number</label>
+                       <input type="number" name="number" id="number">
+     
+                       <div class="agree"><input type="checkbox" id="checkbox">
+                       I agree to <span>terms</span> and <span>conditions</span> and the privacy policy.
+                       </div>
+                    
+                       <button type="submit" class="btn"><i class="fa-regular fa-comment"></i>SignIn</button>
+                    </form>
+                </div>
+         </div>
+         <ul id="user">
+            
+         </ul>
+
+    <script src="js/file.js"></script>
+</body>
+</html>
